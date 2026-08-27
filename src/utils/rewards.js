@@ -1,3 +1,4 @@
+// function to calculate reward points based on the amount spent
 export const calculatePoints = (amount) => {
   if (amount <= 50) {
     return 0;

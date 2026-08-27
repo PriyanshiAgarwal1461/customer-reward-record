@@ -121,6 +121,7 @@ function App() {
 
       </main>
 
+// modal for displaying monthly transaction details of a selected customer
       {selectedCustomer && (
         <TransactionModal
           customer={selectedCustomer}
